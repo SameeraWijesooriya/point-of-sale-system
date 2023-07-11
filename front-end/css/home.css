@@ -2,5 +2,23 @@
     box-sizing: border-box;
 }
 body{
-    background-color: chartreuse;
+    background-color: lightblue;
+}
+main{
+    background-color: #ee610b;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #af0505;
+}
+section>div{
+    padding: 30px;
+}
+#item-view{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: wheat;
 }
